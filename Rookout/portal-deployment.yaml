@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - env:
-        - name: Dummy
+        - name: DUMMY
           value: "v0"
         - name: JAVA_TOOL_OPTIONS
           value: "-javaagent:/appdynamics/rook.jar"
